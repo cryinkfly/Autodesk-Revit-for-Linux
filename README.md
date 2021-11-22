@@ -71,11 +71,15 @@ Install Autodesk Revit for Linux client:
 
     WINEPREFIX=$HOME/.wineprefixes/revit sh winetricks -q corefonts msxml4 msxml6 vcrun2019  dotnet48 fontsmooth=rgb win10
 
-3.) Download the RevitWebInstall.exe and run this command:
+3.) Copy all DLLs* from [here](https://github.com/cryinkfly/Autodesk-Revit-for-Linux/tree/main/files/extras/Windows-DLLs) to /drive_c/windows/system/ and /drive_c/windows/system/32 !
+
+4.) Download the RevitWebInstall.exe and run this command:
 
     WINEPREFIX=$HOME/.wineprefixes/revit wine RevitWebInstall.exe
     
-4.) The installation is currently crashing with error 1603 or 131372 at around 16%.
+5.) The installation is currently crashing with error 1603 or 131372 at around 16%.
+
+*Notice: Diese DLL-files can you find in the extracted RevitWebInstall.exe!
 
 ---
 
