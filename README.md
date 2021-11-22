@@ -52,11 +52,30 @@ Still in Progress!
 
 Still in Progress!
 
+- Internet connection (Cable/DSL speeds recommended)!
+- Latest graphics driver!
+- Latest wine version (winehq-staging), because with some versions of wine where no internet connection works!
+- Latest winetricks version (GitHub: https://github.com/Winetricks/winetricks)!
+
 ---
 
 ## Getting Started
 
 Still in Progress!
+
+Install Autodesk Revit for Linux client:
+
+1.) Check my GitHub-Documentation & Videos before you install Autodesk Revit on your system!
+
+2.) Open a terminal and run this command (Use winetricks file!):
+
+    WINEPREFIX=$HOME/.wineprefixes/revit sh winetricks -q corefonts msxml4 msxml6 vcrun2019  dotnet48 fontsmooth=rgb win10
+
+3.) Download the RevitWebInstall.exe and run this command:
+
+    WINEPREFIX=$HOME/.wineprefixes/revit wine RevitWebInstall.exe
+    
+4.) The installation is currently crashing with error 1603 or 131372 at around 16%.
 
 ---
 
