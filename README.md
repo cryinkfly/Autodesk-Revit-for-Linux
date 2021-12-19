@@ -69,7 +69,7 @@ Install Autodesk Revit for Linux client:
 
 2.) Open a terminal and run this command (Use winetricks file!):
 
-    WINEPREFIX=$HOME/.wineprefixes/revit sh winetricks -q corefonts msxml4 msxml6 vcrun2019  dotnet48 fontsmooth=rgb win10
+    WINEPREFIX=$HOME/.wineprefixes/revit sh winetricks -q corefonts msxml4 msxml6 vcrun2019 dotnet48 fontsmooth=rgb win10
 
 3.) Copy all DLLs* from [here](https://github.com/cryinkfly/Autodesk-Revit-for-Linux/tree/main/files/extras/Windows-DLLs) to /drive_c/windows/system/ and /drive_c/windows/system/32 !
 
